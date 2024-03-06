@@ -2,7 +2,7 @@
 
 namespace ProcessWire;
 
-class PageListVersionsCounter extends WireData implements Module
+class ProcessPageListVersionsCounter extends WireData implements Module
 {
 
   public static function getModuleInfo()
@@ -24,7 +24,7 @@ class PageListVersionsCounter extends WireData implements Module
   public function init()
   {
     $this->addHookAfter('ProcessPageListRender::getPageLabel', $this, 'addVersionsCounter');
-    $this->config->styles->add($this->config->urls->PageListVersionsCounter . "VersionsCounter.css");
+    $this->config->styles->add($this->config->urls->ProcessPageListVersionsCounter . "VersionsCounter.css");
   }
 
   public function addVersionsCounter($event)
