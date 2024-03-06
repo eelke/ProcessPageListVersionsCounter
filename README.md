@@ -10,4 +10,4 @@ This module adds a simple counter in the PageList to see which pages have PagesV
 
 ## Example
 
-![](https://github.com/eelke/ProcessPageListVersionsCounter/raw/master/example.png)
+![](https://github.com/eelke/ProcessPageListVersionsCounter/blob/1c3215bf720649df6a4c1ad99d7530c5531f6ec9/example.png)
