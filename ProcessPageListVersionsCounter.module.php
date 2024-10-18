@@ -24,7 +24,7 @@ class ProcessPageListVersionsCounter extends WireData implements Module
   public function init()
   {
     $this->addHookAfter('ProcessPageListRender::getPageLabel', $this, 'addVersionsCounter');
-    $this->config->styles->add($this->config->urls->ProcessPageListVersionsCounter . "VersionsCounter.css");
+    $this->config->styles->add($this->config->urls->ProcessPageListVersionsCounter . "$this.css");
   }
 
   public function addVersionsCounter($event)
