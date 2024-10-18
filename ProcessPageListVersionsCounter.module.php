@@ -10,7 +10,7 @@ class ProcessPageListVersionsCounter extends WireData implements Module
     return array(
 
       'title' => 'Pagelist Versions Counter',
-      'version' => 001,
+      'version' => 002,
       'summary' => 'Shows number of versions of page, if any are found',
       'singular' => true,
       'autoload' => true,
